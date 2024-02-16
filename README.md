@@ -38,7 +38,7 @@ This project is a comprehensive bank management system developed in Python. It a
 
 ## Usage
 
-1. Clone the repository to your local machine:
+Clone the repository to your local machine:
 
    ```bash
    git clone https://github.com/yourusername/bank-management-system.git
