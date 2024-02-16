@@ -1,36 +1,44 @@
-Bank Management System
-This project is a comprehensive bank management system developed in Python. It includes a variety of functionalities aimed at managing bank operations efficiently.
+# Bank Management System
 
-Features:
-Account Management: Users can create, delete, and update accounts.
-User Administration: Admins can manage bank staff and customer accounts.
-Transactions: Users can deposit, withdraw, and check balances.
-Security: Password authentication and user permissions ensure data integrity.
-User-friendly Interface: Simple and intuitive interfaces for staff and customers.
-Iconography: Utilizes custom icons to enhance visual appeal.
+## Introduction
 
-Files:
-Database/Bank management.sql: SQL file for database management.
-active_account.py: Script for managing active accounts.
-active_bankstaff.py: Script for managing active bank staff.
-active_customer.py: Script for managing active customers.
-admin.py: Script for admin functionalities.
-balance_enquiry.py: Script for checking account balances.
-check_account_details.py: Script for checking account details.
-create_account.py: Script for creating new accounts.
-create_user.py: Script for creating new users.
-customer.py: Script for customer functionalities.
-delete_account.py: Script for deleting accounts.
-delete_user.py: Script for deleting users.
-deposit_amount.py: Script for depositing amounts.
-icon/money.png: Icon used for visual representation.
-login.py: Script for user login.
-pwd_admin.py: Script for admin password management.
-staff.py: Script for staff functionalities.
-update_account.py: Script for updating account details.
-user_administration.py: Script for user administration.
-withdraw_amount.py: Script for withdrawing amounts.
+This project is a comprehensive bank management system developed in Python. It aims to facilitate efficient management of bank operations through a range of functionalities.
 
-Usage:
-Clone the repository to your local machine.
-Run the necessary Python scripts according to your desired functionality.
+## Features
+
+- **Account Management**: Users can create, delete, and update accounts.
+- **User Administration**: Admins have the ability to manage bank staff and customer accounts.
+- **Transactions**: Users can perform deposit, withdrawal, and balance enquiry operations.
+- **Security**: Password authentication and user permissions ensure data integrity and confidentiality.
+- **User-friendly Interface**: Intuitive interfaces designed for both staff and customers.
+- **Iconography**: Custom icons are utilized to enhance the visual appeal of the application.
+
+## Files
+
+- `Database/Bank management.sql`: SQL file for database management.
+- `active_account.py`: Manages active accounts.
+- `active_bankstaff.py`: Manages active bank staff.
+- `active_customer.py`: Manages active customers.
+- `admin.py`: Provides admin functionalities.
+- `balance_enquiry.py`: Allows users to check account balances.
+- `check_account_details.py`: Provides functionality to check account details.
+- `create_account.py`: Facilitates the creation of new accounts.
+- `create_user.py`: Manages the creation of new users.
+- `customer.py`: Implements customer functionalities.
+- `delete_account.py`: Handles the deletion of accounts.
+- `delete_user.py`: Manages the deletion of users.
+- `deposit_amount.py`: Implements functionality for depositing amounts.
+- `icon/money.png`: Icon used for visual representation.
+- `login.py`: Handles user login.
+- `pwd_admin.py`: Manages admin password functionality.
+- `staff.py`: Implements staff functionalities.
+- `update_account.py`: Provides functionality to update account details.
+- `user_administration.py`: Manages user administration.
+- `withdraw_amount.py`: Implements functionality for withdrawing amounts.
+
+## Usage
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/bank-management-system.git
